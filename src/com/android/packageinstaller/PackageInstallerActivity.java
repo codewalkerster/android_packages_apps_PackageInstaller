@@ -134,7 +134,7 @@ public class PackageInstallerActivity extends OverlayTouchActivity implements On
                 >= Build.VERSION_CODES.M;
         boolean permVisible = false;
         mScrollView = null;
-        mOkCanInstall = false;
+        mOkCanInstall = true;
         int msg = 0;
 
         AppSecurityPermissions perms = new AppSecurityPermissions(this, mPkgInfo);
